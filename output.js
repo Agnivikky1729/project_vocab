@@ -7,7 +7,7 @@ for(let i=1; i<y; i++)
     ans += x[i];
 }
 if(x[0]=="0")
-    document.getElementById("yoyo").innerHTML = "The synonyms are : " + ans; 
+    document.getElementById("yoyo").innerHTML = "The synonyms : " + ans; 
 
 if(x[0]=="1")
     document.getElementById("yoyo").innerHTML = "The antonyms are : " + ans; 
