@@ -49,5 +49,10 @@ definition.onclick = ()=>{let i = x.value; def(i)}
 sentence.onclick = ()=>{let i = x.value; sen(i)}
 
 
-document.getElementById("yoyo").innerHTML = "vijay";
-console.log(v)
+let t_log = new URLSearchParams(window.location.search);
+let x_log = t_log.get("value")
+let y_log = t_log.get("value").length;
+let ele_log = document.getElementById("login")
+ele_log.innerHTML = x_log;
+ele_log.style.backgroundColor = "orange";
+ele_log.style.borderRadius = "50px";
